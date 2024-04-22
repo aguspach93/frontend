@@ -1,31 +1,31 @@
-section {
-  width: 90%;
-  text-align: center;
-  padding: 10px;
-  margin: auto;
-  box-sizing: border-box;
-  text-align: justify;
+body {
   font-family: arial;
 }
 
-@media (min-width: 420px) and (max-width: 767px) {
-  section {
+.container {
+  width: 90%;
+  text-align: center;
+  padding: 10px;
+  border: unset;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+@media screen and (min-width: 420px) and (max-width: 767px) {
+  .container {
       width: 70%;
       border: 3px solid #2132cf;
   }
 }
 
-@media (min-width: 768px) {
-  section {
+@media screen and (min-width: 768px) {
+  .container {
       width: 50%;
       border: 3px solid #808080;
   }
 }
 
-a:hover {
+.link:hover {
   color: #419412
 }
 
-span {
-  font-weight: bold;
-}
